@@ -39,19 +39,19 @@ button {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px;
     padding: 20px;
 }
 
 .grid img {
-    width: 100%;       /* 寬度隨格子填滿 */
-    height: auto;      /* 高度根據圖片比例自動調整，不固定死 */
-    object-fit: contain; /* 確保圖片內容完整顯示在容器內 */
+    width: 100%;
+    height: auto;
     border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
 }
 
-/* 防右鍵 */
+
 body {
     user-select: none;
 }
