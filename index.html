@@ -45,9 +45,9 @@ button {
 }
 
 .grid img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+    width: 100%;       /* 寬度隨格子填滿 */
+    height: auto;      /* 高度根據圖片比例自動調整，不固定死 */
+    object-fit: contain; /* 確保圖片內容完整顯示在容器內 */
     border-radius: 12px;
 }
 
